@@ -1,4 +1,4 @@
-# This “slow” version of the client program pauses after sending each message,
+# This "slow" version of the client program pauses after sending each message,
 # to simulate latency or other delay in transmission.
 
 import socket

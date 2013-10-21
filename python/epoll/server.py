@@ -57,11 +57,11 @@ while inputs:
     # incoming data buffered and available to be read. All of the sockets in
     # the writable list have free space in their buffer and can be written to.
     # The sockets returned in exceptional have had an error (the actual
-    # definition of “exceptional condition” depends on the platform).
+    # definition of "exceptional condition" depends on the platform).
 
-    # The “readable” sockets represent three possible cases. If the socket is
-    # the main “server” socket, the one being used to listen for connections,
-    # then the “readable” condition means it is ready to accept another
+    # The "readable" sockets represent three possible cases. If the socket is
+    # the main "server" socket, the one being used to listen for connections,
+    # then the "readable" condition means it is ready to accept another
     # incoming connection. In addition to adding the new connection to the list
     # of inputs to monitor, this section sets the client socket to not block.
 
