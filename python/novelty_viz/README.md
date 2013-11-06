@@ -4,6 +4,8 @@ This script mocks up the use of a simple model novelty detection system to ident
 
 Based on: [scikit-learn:svm](http://scikit-learn.org/stable/auto_examples/svm/plot_oneclass.html#example-svm-plot-oneclass-py)
 
+![tracking behaviour](tracking_behaviour.png)
+
 ## Logic Flow
 
 1. Start with an empty environment.
