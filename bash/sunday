@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+dc -e `date +%s`' 86400 / 7 % 4 + 7 % sr '`date +%s`' 86400 / lr - 86400 * f'
